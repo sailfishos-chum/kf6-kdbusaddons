@@ -1,7 +1,7 @@
 %global kf_version 6.6.0
 
 Name: kf6-kdbusaddons
-Version: 6.6.0
+Version: 6.18.0
 Release: 1%{?dist}
 Summary: KDE Frameworks 6 Tier 1 addon with various classes on top of QtDBus
 
