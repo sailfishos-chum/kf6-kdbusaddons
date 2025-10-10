@@ -28,12 +28,6 @@ Requires:       qt6-qtbase-devel
 The %{name}-devel package contains libraries and header files for
 developing applications that use %{name}.
 
-%package        doc
-Summary:        Development Documentation files for %{name}
-BuildArch:      noarch
-%description    doc
-
-
 %prep
 %autosetup -n %{name}-%{version}/upstream -p1
 
@@ -62,7 +56,3 @@ BuildArch:      noarch
 %{_kf6_includedir}/KDBusAddons/
 %{_kf6_libdir}/libKF6DBusAddons.so
 %{_kf6_libdir}/cmake/KF6DBusAddons/
-%{_qt6_docdir}/*.tags
-
-%files doc
-%{_qt6_docdir}/*.qch
