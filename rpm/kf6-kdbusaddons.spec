@@ -1,4 +1,4 @@
-%global kf_version 6.6.0
+%global kf_version 6.28.0
 
 Name: kf6-kdbusaddons
 Version: 6.28.0
